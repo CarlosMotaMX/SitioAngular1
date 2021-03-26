@@ -1,6 +1,7 @@
 import {Hero} from "./hero";
 
 export const HEROES: Hero[] = [
+    {id: 10, name: "Emilove", edad: 30, sp: "Ser Ella", universo: "Ella lo Es", identidad: "Emily Barcenas"},
     {id: 11, name: "Superman", edad: 30, sp: "Volar, super fuerza", universo: "DC", identidad: "Clark Kent"},
     {id: 12, name: "Batman", edad: 41, sp: "Habilidades como detective", universo: "DC", identidad: "Bruce Wayne"},
     {id: 13, name: "Hulk", edad: 35, sp: "Super fuerte", universo: "Marvel", identidad: "Bruce Banner"},
