@@ -10,12 +10,10 @@
 <div *ngIf="selectedHero">
     <h2>{{selectedHero.name | uppercase}} detalles</h2>
     <div><span>id:</span>{{selectedHero.id}}</div>
-    
     <div>
         <label for = "hero-name">Heroe Nombre</label>
         <input id="hero-name" [(ngModel)]="selectedHero.name" placeholder="nombre">
     </div>
-
     <div>
         <label for = "hero-edad">Heroe Edad</label>
         <input id="hero-edad" [(ngModel)]="selectedHero.edad" placeholder="edad">
@@ -35,5 +33,5 @@
         <label for = "hero-identidad">Heroe Identidad</label>
         <input id="hero-identidad" [(ngModel)]="selectedHero.identidad" placeholder="identidad">
     </div>
-
 </div>
+<app-hero-detail [hero]="selectedHero"></app-hero-detail>
