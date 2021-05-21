@@ -12,4 +12,5 @@ export const HEROES: Hero[] = [
     {id: 18, name: "Flash", edad: 28, sp: "Velocidad", universo: "DC", identidad: "Walter West"},
     {id: 19, name: "Scarlet Witch", edad: 32, sp: "Proyección astral", universo: "Marvel", identidad: "Wanda Maximoff"},
     {id: 20, name: "Wonder Woman", edad: 31, sp: "Volar, super fuerza", universo: "DC", identidad: "Diana Prince"},
+    {id: 21, name: "Mamá", edad: 40, sp: "DE TODO", universo: "Todos", identidad: "Helen"},
 ]
